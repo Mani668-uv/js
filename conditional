@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a=prompt()
+        b=prompt()
+        let c= a+b
+        if(a||b>300){
+            alert( "teamup")
+        }else if(c<500){
+            alert("teamup")
+        }else{
+            alert("cant teamup")
+        }
+        alert("welcome to pulicheral")
+
+        //a=301
+        //b=190
+        //let c= a+b
+        //if(a>300){
+        //    document.write("teamup")
+        //}else if(c<500){
+          //  document.write("teamup")
+        //}else{
+          //  document.write("cant teamup")
+        //}
+        //alert("welcome to pulicherala")
+
+        //age=prompt("enter your age")
+        //name=prompt("enter your name?")
+        //if(age<18){
+          //  alert(name+ "you are too young to marry")
+        //}else if(age>35){
+          //  alert(name+"youre cant marry go to pulicherla")
+        //}else{
+          //  alert(name+"perfect age to marry")
+        //}
+        //alert("welcome to pulicherla")
+
+        //let a=5
+        //let b=10
+        //if(a<b){
+          //  document.write("hi mani","<br>")
+        //}else{
+          //  document.write("hi krishna","<br>")
+        //}
+        //document.write("welcome to pullicherla")
+
+        //if(a>b){
+         //   document.write("hi koi koi","<br>")       
+        // }
+    </script>
+</body>
+</html>
