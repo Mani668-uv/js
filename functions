@@ -1,0 +1,85 @@
+Functions:
+-- we can use the code multiple times without the need of writing the same code using functions
+-- A function is a reusable block of code 
+-- it can be called anywhere in the program
+---Resuable Code: refers to the using an existing code without writing it multiple times
+
+-- we use paramerters while using a function.. Parameters are the values(variables) which 
+   are declared inside the ()
+
+--Arguments: values which are assed through the paramerters 
+
+Eg1:
+    <script>
+        function greet(){
+            document.write("Hello world!")
+        }
+        greet()
+        
+    </script>
+    O/P:
+    Hello world!
+
+eg2: function with paramerters:
+    <script>
+        function g(name){
+            document.write("Hello "+name)
+        }
+        let name = prompt("Enter your name: ")
+        g(name)
+    </script>
+    Eg:
+    Hello mani
+
+eg3: with arguments:
+    <script>
+        function add(a,b){
+            document.write(a+b,"<br>");
+        }
+        add(3,5);
+        add(7,3);
+
+    </script>
+
+    O/P:
+    8
+    10
+
+--Function return:
+-The return Statement cn be used to returm the value to a function call
+eg:
+    <script>
+        function a(a,b){
+            return (a+b);
+        }
+        let n1 = parseFloat(prompt("enter a number1: "))
+        let n2 = parseFloat(prompt("enter a number2: "))
+        let result = a(n1,n2)
+        document.write("Sum of the two numbers is: "+result)
+    </script>
+
+    O/p1:
+    enter a number1: 3
+    enter a number2: 7
+    Sum of the two numbers is: 10
+
+    o/p2:
+    Sum of the two numbers of 12.2 and 10.7 is 22.9
+
+
+Anonymous function:
+--A function without name
+--After we create a function without name and we assign it a variable
+
+Eg:
+  <script>
+        sum = function(n1,n2){
+            let r = n1+n2
+            return r
+
+        }
+        document.write(sum(10,9))
+    </script>
+
+    O/P:
+    19
